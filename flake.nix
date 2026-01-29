@@ -2,6 +2,7 @@
   inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1";
   outputs =
     { self, ... }@inputs:
+
     let
       supportedSystems = [
         "x86_64-linux"
